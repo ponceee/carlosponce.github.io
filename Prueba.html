@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<title>Catering de Carlos</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>  
+h1,h2,h3,h4,h5,h6 {
+    font-family: "Playfair Display";
+    letter-spacing: 5px;
+}
+</style>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;">
+    <a href="#home" class="w3-bar-item w3-button">Sketit Restaurant</a>
+    <!-- Right-sided navbar links. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+      <a href="#about" class="w3-bar-item w3-button">Sobre</a>
+      <a href="#menu" class="w3-bar-item w3-button">Menu</a>
+      <a href="#contact" class="w3-bar-item w3-button">Contacto</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px" id="home">
+  <img src="imagenes/hamburguesaa.jpg" alt="Hamburger Sketit" width="1600" height="800">
+  <div class="w3-display-bottomleft w3-padding-large w3-opacity">
+    <h1 class="w3-xxlarge">Sketit Restaurant</h1>
+  </div>
+</header>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:1100px">
+
+  <!-- About Section -->
+  <div class="w3-row w3-padding-64" id="about">
+    <div class="w3-col m6 w3-padding-large w3-hide-small">
+     <img src="imagenes/comida.jpg"alt="Table Setting" width="500" height="500">
+    </div>
+
+    <div class="w3-col m6 w3-padding-large">
+      <h1 class="w3-center">Sobre Sketit</h1><br>
+      <h5 class="w3-center">Tradicionion desde 2018</h5>
+      <p class="w3-large">Este restaurante se creó en 2018, cuando un chico junto con su familia abrió un restaurante en Cartagena.  <span class="w3-tag w3-light-grey">
+  </div>
+  <div id="map">
+		<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15035.625766779995!2d-0.9906811171815516!3d37.605666728901774!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd63418bc38a5697%3A0xe2d73fd86e6d4938!2sColegio+la+Sagrada+Familia!5e0!3m2!1ses!2ses!4v1543304848180" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+</div>
+ <hr>
+  
+  <!-- Menu Section -->
+  <div class="w3-row w3-padding-64" id="menu">
+    <div class="w3-col l6 w3-padding-large">
+      <h1 class="w3-center">Nuestro Menú</h1><br>
+      <h4>Canasta De Pan</h4>
+      <p class="w3-text-grey">Surtido de panes y muffins de frutas recién horneadas 5.50€</p><br>
+    
+      <h4>Granola De Miel De Almendras Con Frutas</h4>
+      <p class="w3-text-grey">Cereales naturales de miel avena tostada, pasas, almendras y dátiles 7.00€</p><br>
+    
+      <h4>Huevos revueltos</h4>
+      <p class="w3-text-grey">Huevos revueltos, pimiento rojo asado y ajo, con cebolla verde 7.50€</p><br>
+    
+      <h4>Pan Tomaca</h4>
+      <p class="w3-text-grey">Bocadillo tradicional catalán de jamón y tomate 6.00€</p>    
+    </div>
+    
+    <div class="w3-col l6 w3-padding-large">
+      <img src="imagenes/menu.jpg" class="w3-round w3-image w3-opacity-min" alt="Menu" style="width:30%0%%0%">
+    </div>
+  </div>
+
+  <hr>
+
+  <!-- Contact Section -->
+  <div class="w3-container w3-padding-64" id="contact">
+    <h1>Contacto</h1><br>
+    <p>Ofrecemos servicio completo de Sketit para cualquier evento, grande o pequeño. Entendemos sus necesidades y atenderemos la comida para satisfacer los criterios más importantes de todos, tanto en apariencia como en sabor. No dude en ponerse en contacto con nosotros.</p>
+    <p class="w3-text-blue-grey w3-large"><b>Servicios de Sketit, Paseo Alfonso XIII Nº60, 30203 Cartagena, Murcia</b></p>
+    <p>Puede contactar con nosotros llamando al 674569006 o por el email Sketit@sketit.com, puede dejar su mensaje ahí:</p>
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Nombre" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16" type="number" placeholder="Comensales" required name="People"></p>
+      <p><input class="w3-input w3-padding-16" type="datetime-local" placeholder="Fecha y hora" required name="date" value="2017-11-16T20:00"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Mensaje" required name="Message"></p>
+      <p><button class="w3-button w3-light-grey w3-section" type="submit">ENVIAR MENSAJE</button></p>
+    </form>
+  </div>
+  
+<!-- End page content -->
+</div>
+
+<!-- Footer -->
+
+
+</body>
+</html>
